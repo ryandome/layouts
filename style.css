@@ -1,1 +1,14 @@
+body
+{
+    text-align: center;
+    background-color: #fffae3;
+}
 
+div
+{
+    font-size: 24px;
+    margin-right:50px;
+    margin-left:50px;
+    line-height: 35px;
+    font-weight: 300;
+}

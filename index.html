@@ -1,1 +1,23 @@
-
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+<body>
+    
+<h1>D3 Layouts</h1>  
+    
+<div>
+    <p>
+        D3 layouts don't actually draw anything on the screen, instead they transform the data that we use to draw visuals. D3 layouts include pie charts, stacked bar charts, stacked area charts and force layouts. While all of these layouts require unique code there are still some similarities and general patterns between them. For most layouts you will find youself having to define layout specific attributes necessary for the code to work these inlude things like the size of the visual element and where on the page it will be displayed. The layouts still use the selectAll/data/enter/append pattern for creating groups and visuals in the svg. What is different between the layouts is the data that is being bound to. To make a pie chart you are binding not an array of numbers, but an array of objects. For stacked charts you use anonymous functions to bind only a portion of the data. To make force layouts you need to reference the edges and the nodes seperatly when you bind the data. None of the layouts described are binding the orginal dataset in its entirety. There is still some layout specific syntax, and each layout requires different data to be bound to the elements, but overall they still follow the same structure of selecting the elements you want to create, selecting the data to be bound to, appending all of the elements that don't exist but have been bound, and giving these elements the necessary attributes. 
+    </p>
+    
+</div> 
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
